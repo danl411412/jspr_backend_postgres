@@ -6,3 +6,4 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 dan = User.create(name: "Daniel")
+home = Hangout.create(status: true, location: "home", hangout_time: 3)
