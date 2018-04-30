@@ -15,6 +15,10 @@ class Api::V1::HangoutsController < ApplicationController
     render json: @hangout
   end
 
+  def update
+    
+  end
+
   private
 
   def hangout_params
