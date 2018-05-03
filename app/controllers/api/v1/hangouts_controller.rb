@@ -15,8 +15,8 @@ class Api::V1::HangoutsController < ApplicationController
     render json: @hangout
   end
 
-  def update
-    
+  def destroy
+
   end
 
   private

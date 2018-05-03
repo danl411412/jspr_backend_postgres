@@ -4,9 +4,9 @@ Rails.application.routes.draw do
     namespace :v1 do
       resources :users
       resources :hangouts
+      post "/users/login", to: "users#login"
     end
   end
-
 
 
 end
